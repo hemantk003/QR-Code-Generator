@@ -7,7 +7,7 @@ class Qr_Generator:
     def __init__(self,root):
         self.root=root
         self.root.geometry("900x500+200+50")
-        self.root.title("QR Generator | Developed by Arun kumar & Arun sorout")
+        self.root.title("QR Generator | Developed by HEMANT")
         self.root.resizable(False,False)
 
         title=Label(self.root,text="    Qr Code Generator",font=("times new roman",40),bg='#053246',fg='white',anchor='w').place(x=0,y=0,relwidth=1)
